@@ -1,8 +1,11 @@
 //ডাটার জন্য আমার সাথে যোগাযোগ করুন। 
 //Contact me for data
-/*faceBook:- https://www.facebook.com/profile.php?id=100080938471859
-Email:- 2003Monowar@gmail.com
-*/
+/***
+**
+ *faceBook:- https://www.facebook.com/profile.php?id=100080938471859
+ *Email:- 2003monowar@gmail.com
+**
+***/
 const appData = [
     {
         id: 1,
