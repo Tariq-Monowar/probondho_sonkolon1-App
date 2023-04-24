@@ -8,6 +8,9 @@
 - ![sfsf](https://user-images.githubusercontent.com/101199109/234033893-8f4e89d4-dc29-46d2-a585-c491f771fb02.png)
 
 - ![CBVBDCGDGfd](https://user-images.githubusercontent.com/101199109/234033900-9f5477f3-b35a-4dbd-af07-22579328c76c.png)
+
+- ![splashFF](https://user-images.githubusercontent.com/101199109/234047583-f7a7dbb1-575e-4d53-bf7f-54526849efdd.png)
+
 ## Feedback
 We value your feedback and would love to hear from you! If you have any comments, suggestions, or issues regarding the "probondho sonkolon" App, please don't hesitate to reach out to us. You can contact us through any of the following channels
 
