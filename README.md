@@ -8,3 +8,11 @@
 - ![sfsf](https://user-images.githubusercontent.com/101199109/234033893-8f4e89d4-dc29-46d2-a585-c491f771fb02.png)
 
 - ![CBVBDCGDGfd](https://user-images.githubusercontent.com/101199109/234033900-9f5477f3-b35a-4dbd-af07-22579328c76c.png)
+## Feedback
+We value your feedback and would love to hear from you! If you have any comments, suggestions, or issues regarding the "Dopamin Detox" App, please don't hesitate to reach out to us. You can contact us through any of the following channels
+
+#### Email: 2003monowar@gmail.com
+#### LinkedIn: https://www.linkedin.com/in/tariq-monowar-hossain-3a7b941bb/
+#### Facebook: https://www.facebook.com/profile.php?id=100080938471859
+
+Thank you for taking the time. You can feel free to contact me
