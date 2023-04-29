@@ -21,7 +21,4 @@ Thank you for taking the time. You can feel free to contact me.
 
 ![CBVBDCGDGfd](https://user-images.githubusercontent.com/101199109/234033900-9f5477f3-b35a-4dbd-af07-22579328c76c.png)
  
-![sad](https://user-images.githubusercontent.com/101199109/234047955-77e18a87-367a-4503-b08a-89b1d8a0f014.png)
-
-
-
+![5](https://user-images.githubusercontent.com/101199109/235279790-d1dead52-85fb-4228-9e45-148c1b4fe584.png)
