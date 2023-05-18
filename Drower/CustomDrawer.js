@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground, Linking, Share,  Alert } from 'react-native'
 import React, { useEffect, useState } from 'react'
+
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer'
 import { useNavigation } from '@react-navigation/native'
 import * as Font from 'expo-font';
 const CustomDrawer = (props) => {
   const navigation = useNavigation()
   const [fontLoaded, setFontLoaded] = useState(false);
-
+  
   useEffect(() => {
     async function loadFont() {
       await Font.loadAsync({
@@ -19,19 +20,10 @@ const CustomDrawer = (props) => {
 
   const onShare = async () => {
     try {
-      const result = await Share.share({
-        message:
-          'প্রবন্ধ সংকলন ১',
+      await Share.share({
+        message: 
+          'প্রবন্ধ সংকলন ১ \n\n https://play.google.com/store/apps/details?id=com.tariqmonowar.probondhoSonkolon',
       });
-      if (result.action === Share.sharedAction) {
-        if (result.activityType) {
-          // shared with activity type of result.activityType
-        } else {
-          // shared
-        }
-      } else if (result.action === Share.dismissedAction) {
-        // dismissed
-      }
     } catch (error) {
       Alert.alert(error.message);
     }
@@ -57,7 +49,6 @@ const CustomDrawer = (props) => {
 
   return (
     <DrawerContentScrollView {...props} style={{ backgroundColor: '#4b787426' }}>
-
       <View style={styles.drawer_header}>
         <Image style={styles.drawer_image} source={require('../assets/droewerImage.png')}/>
       </View>
