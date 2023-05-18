@@ -1,5 +1,6 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, StatusBar, SafeAreaView } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -50,51 +51,53 @@ export default function App({params,route}) {
   const Stack = createNativeStackNavigator();
 
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="DrawerNavigator"
-          component={DrawerNavigator}
-          options={{ headerShown: false }}
-        />
-        <Stack.Screen
-          name="DetalseData"
-          component={DetalseData}
-          options={({route})=>({
-            headerTitle: route.params.selector,
-            headerTitleAlign: "center",
-            headerTintColor: "#fff",
-            headerStyle: {
-              backgroundColor: "#2b5d58eb",  
-            }
-          })}
-        />
-        <Stack.Screen
-          name="BookWriter"
-          component={BookWriter}
-          options={({route})=>({
-            headerTitle: "Book Writer",
-            headerTitleAlign: "center",
-            headerTintColor: "#fff",
-            headerStyle: {
-              backgroundColor: "#2b5d58eb",  
-            }
-          })}
-        />
-        <Stack.Screen
-          name="AboutApp"
-          component={AboutApp}
-          options={({route})=>({
-            headerTitle: "পরিচিতি",
-            headerTitleAlign: "center",
-            headerTintColor: "#fff",
-            headerStyle: {
-              backgroundColor: "#2b5d58eb",  
-            }
-          })}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen
+            name="DrawerNavigator"
+            component={DrawerNavigator}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="DetalseData"
+            component={DetalseData}
+            options={({route})=>({
+              headerTitle: route.params.selector,
+              headerTitleAlign: "center",
+              headerTintColor: "#fff",
+              headerStyle: {
+                backgroundColor: "#2b5d58eb",  
+              }
+            })}
+          />
+          <Stack.Screen
+            name="BookWriter"
+            component={BookWriter}
+            options={({route})=>({
+              headerTitle: "Book Writer's",
+              headerTitleAlign: "center",
+              headerTintColor: "#fff",
+              headerStyle: {
+                backgroundColor: "#2b5d58eb",  
+              }
+            })}
+          />
+          <Stack.Screen
+            name="AboutApp"
+            component={AboutApp}
+            options={({route})=>({
+              headerTitle: "পরিচিতি",
+              headerTitleAlign: "center",
+              headerTintColor: "#fff",
+              headerStyle: {
+                backgroundColor: "#2b5d58eb",  
+              }
+            })}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </>
   );
 }
 
