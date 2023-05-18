@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "android",
-    "slug": "android",
+    "name": "প্রবন্ধ সংকলন",
+    "slug": "probondhoSonkolon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,14 +22,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.tariqmonowar.android"
+      "package": "com.tariqmonowar.probondhoSonkolon"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "d82b3338-a15a-4aa6-8a46-77788c7f3cf3"
+        "projectId": "0ed6bce3-7588-4adc-8e7a-a76422a6cff3"
       }
     }
   }
